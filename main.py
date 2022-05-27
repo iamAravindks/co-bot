@@ -11,7 +11,7 @@ from voc import voc
 import random
 
 nlp = English()
-tokenizer = nlp.Defaults.create_tokenizer(nlp)
+tokenizer = nlp.tokenizer
 PAD_Token=0
 
 app = Flask(__name__)
